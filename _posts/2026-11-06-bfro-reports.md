@@ -27,7 +27,7 @@ Lastly, to prepare the data, I used groupby to group reports by state for the ca
 <div id="bfro-chart2"></div>
 
 For the second visualization, I created an interactive line chart showing changes in reported Bigfoot sightings from 1980 to 2018 for individual U.S. states. 
-For the x-axis, I used temporal encoding to represent years, and quantitative encoding to show annual report counts on the y-axis. 
+For the x-axis, I used quantitative encoding to represent years, and quantitative encoding to show annual report counts on the y-axis. 
 I used a fixed steel-blue color because only one state is displayed at a time, so a color scheme is unnecessary. When preparing the data, I removed records with missing dates, 
 converted the column to datetime format, extracted the year, and grouped reports by year and state. 
 I also filtered the data to include only reports from 1980 to 2018 to emphasize more recent trends. 
